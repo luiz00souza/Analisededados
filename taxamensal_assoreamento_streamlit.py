@@ -16,7 +16,7 @@ st.title("🌊 Taxa Mensal de Assoreamento")
 st.markdown("""
 Bem-vindo(a)!  
 Aqui você pode **analisar a variação mensal de assoreamento** a partir de arquivos XYZ sem cabeçalho.  
-O sistema reconhece automaticamente as datas, calcula as taxas e gera um **GIF animado** da evolução temporal.
+O sistema reconhece automaticamente as datas, calcula as taxas e gera um **GIF animado** da evolução temporal. Arquivos 01 a 07_TAXA_MENSAL para usar de exemplo.
 """)
 
 # ---------------------- SEÇÃO 1: Upload ----------------------
@@ -199,3 +199,4 @@ st.download_button("💾 Baixar CSV com volumes mensais", csv_buffer.getvalue(),
 
 st.balloons()
 st.success("🎉 Análise concluída com sucesso! Excelente trabalho 🌱")
+
